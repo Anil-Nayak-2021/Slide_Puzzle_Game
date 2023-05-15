@@ -1,0 +1,26 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-image:url(10.jpg);
+    background-size: cover;
+    padding: 2px;
+    border: 10px solid #347807;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #fdfdfd;
+}
+
+#title{
+    height: 188px;
+}
